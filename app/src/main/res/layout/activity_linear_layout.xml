@@ -6,21 +6,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/voilet"
     tools:context=".LinearLayoutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar_month_24"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Text"
-        android:padding="20dp"
+        android:text="@string/myText"
+        android:drawableRight="@drawable/calendar_month_24"
+        android:drawableTint="@color/black"
+        android:padding="5dp"
+        android:drawablePadding="20dp"
         android:layout_gravity="center"
-        android:background="@color/black"
         android:textSize="20sp"
         android:layout_marginTop="40dp"/>
      <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Text"
+        android:text="@string/text2"
          android:gravity="center"
          android:background="@color/black"
         android:textSize="20sp"
@@ -28,7 +37,7 @@
      <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Text"
+        android:text="@string/myText"
          android:gravity="center"
          android:background="@color/black"
         android:textSize="20sp"
@@ -36,7 +45,7 @@
      <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Text"
+        android:text="@string/myText"
          android:gravity="center"
          android:background="@color/black"
         android:textSize="20sp"
